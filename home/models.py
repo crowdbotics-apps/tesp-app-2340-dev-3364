@@ -36,3 +36,8 @@ class HomePage(models.Model):
 class Demo(models.Model):
     "Generated Model"
     name = models.CharField(max_length=256,)
+
+
+class Test(models.Model):
+    "Generated Model"
+    test = models.BigIntegerField()
